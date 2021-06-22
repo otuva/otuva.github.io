@@ -1,11 +1,18 @@
 html {
-  font-size: 22px;
+  font-size: 20px;
   font-family: 'Roboto Mono', monospace;
+
+  height: 100%;
+  background-color: #2d2d2d;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-body {
-  background-color: #2d2d2d;
-}
+/*body {*/
+/*  height: 100%;*/
+/*}*/
 
 /*img {
   display: block;
