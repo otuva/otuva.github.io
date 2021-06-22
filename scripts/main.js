@@ -1,36 +1,37 @@
-let myImage = document.querySelector('img');
+const BG_IMAGE = "images/background.jpg"
 
-myImage.onclick = function() {
-    let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/fulcrum.png') {
-      myImage.setAttribute('src','images/choking.jpeg');
-    } else {
-      myImage.setAttribute('src','images/fulcrum.png');
+function check_bg() {
+  const checkBox = document.getElementById("bg_toggle");
+  const biscuit = Object.fromEntries(document.cookie.split('; ').map(x => x.split('=')))
+
+  for (const key in biscuit) {
+    if (`${key}` === 'bg') {
+      if (`${biscuit[key]}` === 'true') {
+        checkBox.checked = true;
+        document.body.style.backgroundImage = `url(${BG_IMAGE})`;
+      }
+      else if (`${biscuit[key]}` === 'false') {
+        checkBox.checked = false;
+        document.body.style.backgroundImage = 'none';
+      }
     }
-}
-
-
-let myButton = document.querySelector('button');
-let myHeading = document.querySelector('h1');
-
-function setUserName() {
-  let myName = prompt('Please enter your name.');
-  if(!myName) {
-    setUserName();
-  } else {
-    localStorage.setItem('name', myName);
-    myHeading.textContent = 'Mozilla is cool, ' + myName;
+    // if cookie doesn't exist
+    else {
+      document.cookie = "bg=true"
+      checkBox.checked = true;
+      document.body.style.backgroundImage = `url(${BG_IMAGE})`;
+    }
   }
 }
 
-if(!localStorage.getItem('name')) {
-  setUserName();
-} else {
-  let storedName = localStorage.getItem('name');
-  myHeading.textContent = 'Mozilla is cool, ' + storedName;
+function bg_toggle() {
+  const checkBox = document.getElementById("bg_toggle");
+  if (checkBox.checked === true){
+    document.cookie = "bg=true"
+  }
+  else {
+    document.cookie = "bg=false"
+  }
+  check_bg()
 }
-
-myButton.onclick = function() {
-  setUserName();
-}
-
+check_bg()

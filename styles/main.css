@@ -1,7 +1,10 @@
 html {
   font-size: 22px;
   font-family: 'Roboto Mono', monospace;
-  background-color: #2d2d2d; 
+}
+
+body {
+  background-color: #2d2d2d;
 }
 
 /*img {
@@ -13,6 +16,7 @@ h1 {
   font-size: 60px;
   text-align: center;
   color: #dbdbdb;
+  /*background-color: #2d2d2d;*/
 }
 
 p, li {
@@ -22,9 +26,7 @@ p, li {
   letter-spacing: 1px;
 }
 
-a {
+/*a {
   background-color: #242424;
   color: #1f7ac8;
-}
-
-
+}*/
