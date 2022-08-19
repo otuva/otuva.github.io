@@ -1,39 +1,12 @@
-html {
-  font-size: 20px;
-  font-family: 'Roboto Mono', monospace;
-
+body {
+  overflow: hidden;
+  background-color: black;
   height: 100%;
-  background-color: #2d2d2d;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
-/*body {*/
-/*  height: 100%;*/
-/*}*/
-
-/*img {
+#bgimg {
   display: block;
-  margin: 0 auto;
-}*/
-
-h1 {
-  font-size: 60px;
-  text-align: center;
-  color: #dbdbdb;
-  /*background-color: #2d2d2d;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
-
-p, li {
-  color: #dbdbdb;
-  font-size: 32px;
-  line-height: 2;
-  letter-spacing: 1px;
-}
-
-/*a {
-  background-color: #242424;
-  color: #1f7ac8;
-}*/
