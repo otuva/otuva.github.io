@@ -1,15 +1,177 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  <head>
-    <link href="styles/main.css" rel="stylesheet">
+<head>
 
+    <!-- Page Information
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
-    <title>Otuva | OAA</title>
-  </head>
+    <title>o t u v a</title>
+    <meta name="description" content="Otuva Links">
+    <meta name="author" content="Onur Alp AKIN">
 
-  <body>
-    <img id="bgimg" src="images/construction.svg" alt="Under construction">
-  </body>
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</html> 
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Themes:
+            Auto:   css/skeleton-auto.css
+            Light:  css/skeleton-light.css
+            Dark:   css/skeleton-dark.css
+     -->
+    <link rel="stylesheet" href="css/skeleton-dark.css">
+
+    <!-- Brand Styles -->
+    <link rel="stylesheet" href="css/brands.css">
+
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/badge.svg">
+
+</head>
+
+<body>
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        <div class="row">
+            <div class="column" style="margin-top: 10%">
+
+                <!-- 
+
+          ## Getting Started with LittleLink
+
+          This page has been built with every pre-designed button available in LittleLink by default. You can rearrange and delete as needed.
+
+          You can add your own brand or others brands you may need in the `css/brands.css` file. 
+
+          You can add custom icons to `images/icons/...`. It is recommended to use a 24x24 .SVG.
+
+          Edit the "Your Image Here" section to add your own personal branding, like a picture of yourself or your brand logo!
+
+          Edit the "Title" section to change the page heading. You can use something like your name, your social handle, or your brand name.
+
+          Edit the "Short Bio" section tell users about yourself or your brand.
+
+        -->
+
+                <!-- Your Image Here -->
+                <img src="https://avatars.githubusercontent.com/u/67955086" class="avatar" alt="GitHub Profile Picture">
+
+                <!-- Title -->
+                <h1>Onur Alp AKIN</h1>
+
+                <!-- Short Bio -->
+                <p>Hi, I'm interested in cyber security. <br>
+                    You can find links related to me below.</p>
+
+                <!--
+
+          ## Breaking down <a> attributes:
+          
+          1.) class="button button-default" | The first "button" here is telling this <a> tag that it should make this element a button and applies the default styling in `css/brands.css`.
+          The second portion, button-default, is declaring the specific brand style you would like to apply. Here we're applying the "default" style and color.
+          If you want to make this button to use the brand colors for Discord, just change "button-default" to "button-discord". Brands are found in `css/brands.css`. You can always edit & add your own there.
+
+          2.) Replace the # in href="#" with the desired target URL for the button.
+
+          3.) target="_blank" | This attribute opens links in a new tab. Remove this attribute to prevent links from opening in a new tab.
+
+          4.) rel="noopener" | This attribute instructs the browser to navigate to the target resource without granting the new browsing context access to the document that opened it.
+          This is especially useful when opening untrusted links. https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener
+
+          ## Breaking down the <img> attributes:
+          
+          1.) class="icon" | This class is telling the <img> tag that it should use the styling for icons found in `css/brands.css`.
+
+          2.) src="icons/[icon_name].svg" | This defines the icon you would like to display from the icons/ folder. For example, you can change this to src="icons/discord.svg" to use the Discord icon.
+          Add your own 24x24 icons to the "icons" folder to reference them. We recommend providing a SVG.
+
+          3.) alt="Example Logo" | This alt attribute helps provides alternate text for an image, this can assist users who use screen readers. 
+
+        -->
+
+                <!-- GitHub -->
+                <a class="button button-github" href="https://github.com/otuva" target="_blank" rel="noopener">
+                    <img class="icon" src="images/icons/github.svg" alt="GitHub Logo">GitHub</a>
+                <br>
+
+                <!-- TryHackMe -->
+                <a class="button button-tryhackme" href="https://tryhackme.com/p/otuva" target="_blank" rel="noopener">
+                    <img class="icon" src="images/icons/tryhackme.svg" alt="TryHackMe Logo">TryHackMe</a>
+                <br>
+
+                <!-- HackerRank -->
+                <a class="button button-hackerrank" href="https://www.hackerrank.com/otuva" target="_blank"
+                    rel="noopener">
+                    <img class="icon" src="images/icons/hackerrank.svg" alt="HackerRank Logo">HackerRank</a>
+                <br>
+
+                <!-- ArchLinux -->
+                <a class="button button-archlinux" href="https://aur.archlinux.org/packages?O=0&SeB=M&K=otuva&outdated=&SB=p&SO=d&PP=50&submit=Go" target="_blank"
+                    rel="noopener">
+                    <img class="icon" src="images/icons/archlinux.svg" alt="ArchLinux Logo">ArchLinux</a>
+                <br>
+
+                <!-- Medium -->
+                <a class="button button-medium" href="https://otuva.medium.com" target="_blank" rel="noopener">
+                    <img class="icon" src="images/icons/medium.svg" alt="Medium Logo">Medium</a>
+                <br>
+
+                <!-- LinkedIn -->
+                <a class="button button-linked" href="https://www.linkedin.com/in/otuva/" target="_blank"
+                    rel="noopener">
+                    <img class="icon" src="images/icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a>
+                <br>
+
+                <!-- Email -->
+                <a class="button button-mail" href="mailto:onralpakin@gmail.com" target="_blank" rel="noopener">
+                    <img class="icon" src="images/icons/email.svg" alt="Email Icon">onralpakin@gmail.com</a>
+                <br>
+
+                <!-- Gitlab -->
+                <a class="button button-gitlab" href="https://gitlab.com/otuva" target="_blank" rel="noopener">
+                    <img class="icon" src="images/icons/gitlab.svg" alt="GitLab Logo">GitLab</a>
+                <br>
+
+                <!-- Web -->
+                <a class="button button-web" href="http://www.otuva.rocks" target="_blank" rel="noopener">
+                    <img class="icon" src="images/icons/web.svg" alt="Web Logo">otuva.rocks</a>
+                <br>
+
+                <!-- Telegram -->
+                <a class="button button-telegram" href="#" target="_blank" rel="noopener">
+                    <img class="icon" src="images/icons/telegram.svg" alt="Telegram Logo">Telegram (Not Yet)</a>
+                <br>
+
+                <!-- Buy Me a Coffee -->
+                <a class="button button-coffee" href="#" target="_blank" rel="noopener">
+                    <img class="icon" src="images/icons/coffee.svg" alt="Buy Me a Coffee">Buy Me a Coffee (Not Yet)</a>
+                <br>
+
+                <br>
+                <!-- 
+            Footer:
+            This includes a link to privacy.html page which can be setup for your Privacy Policy.
+            This also includes a link to the LittleLink repository to make forking LittleLink easier.
+            You can edit or remove anything here to make your own footer.
+        -->
+                <p>If you want to improve, be content to be thought foolish and stupid. <br> <a
+                        href="privacy.html">Privacy Policy</a></a>.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>

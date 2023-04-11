@@ -1,0 +1,195 @@
+/*
+* littlelink.io
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+/*
+* Built using on:
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+
+- Buttons
+- Brand Styles
+
+*/
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.button,
+button {
+  display: inline-block;
+  text-decoration: none;
+  height: 48px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  width: 300px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.1px;
+  white-space: wrap;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover,
+.button:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0;
+}
+.button.button-primary {
+  color: #fff;
+  filter: brightness(90%);
+}
+.button.button-primary:hover,
+.button.button-primary:focus {
+  color: #fff;
+  filter: brightness(90%);
+}
+
+/* Brand Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.icon {
+  padding: 0px 8px 3.5px 0px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+/* Brand Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Default (this is great for your own brand color!) */
+.button.button-default {
+  color: #ffffff;
+  background-color: #0085ff;
+}
+.button.button-default:hover,
+.button.button-default:focus {
+  filter: brightness(90%);
+}
+
+/* GitHub */
+.button.button-github {
+  color: #ffffff;
+  background-image: linear-gradient(-135deg, #15d95d, #0016b9, #f50000);
+}
+.button.button-instagram:hover,
+.button.button-instagram:focus {
+  filter: brightness(90%);
+}
+
+/* Gitlab */
+.button.button-gitlab {
+  color: #ffffff;
+  background-color: #6151b2;
+}
+.button.button-gitlab:hover,
+.button.button-gitlab:focus {
+  filter: brightness(90%);
+}
+
+/* LinkedIn */
+.button.button-linked {
+  color: #ffffff;
+  background-color: #2867b2;
+}
+.button.button-linked:hover,
+.button.button-linked:focus {
+  filter: brightness(90%);
+}
+
+/* HackerRank */
+.button.button-hackerrank {
+  color: #ffffff;
+  background-color: #2ba757;
+}
+.button.button-linked:hover,
+.button.button-linked:focus {
+  filter: brightness(90%);
+}
+
+/* Medium */
+.button.button-medium {
+  color: #ffffff;
+  background-color: #1e1e1e;
+}
+.button.button-medium:hover,
+.button.button-medium:focus {
+  filter: brightness(90%);
+}
+
+/* Telegram */
+.button.button-telegram {
+  color: #ffffff;
+  background-color: #3faee8;
+}
+.button.button-telegram:hover,
+.button.button-telegram:focus {
+  filter: brightness(90%);
+}
+
+/* TryHackMe */
+.button.button-tryhackme {
+  color: #ffffff;
+  background-color: #9f0e0e;
+}
+.button.button-telegram:hover,
+.button.button-telegram:focus {
+  filter: brightness(90%);
+}
+
+/* ArchLinux */
+.button.button-archlinux {
+  color: #ffffff;
+  background-color: #33aadd;
+}
+.button.button-telegram:hover,
+.button.button-telegram:focus {
+  filter: brightness(90%);
+}
+
+/* Buy Me a Coffee */
+.button.button-coffee {
+  color: #100a26;
+  background-color: #ffdd00;
+}
+.button.button-coffee:hover,
+.button.button-coffee:focus {
+  filter: brightness(90%);
+}
+
+/* Website */
+.button.button-web {
+  color: #ffffff;
+  background-image: linear-gradient(-135deg, #1c43b7, #bc1021, #cb0d92);
+}
+.button.button-web:hover,
+.button.button-web:focus {
+  filter: brightness(90%);
+}
+
+/* Email */
+.button.button-mail {
+  color: #ffffff;
+  background-image: linear-gradient(-135deg, #d95015, #a300b9, #0072f5);
+}
+.button.button-instagram:hover,
+.button.button-instagram:focus {
+  filter: brightness(90%);
+}
