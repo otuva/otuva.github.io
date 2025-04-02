@@ -256,7 +256,7 @@ a:hover {
 	outline-offset: 2px;
   }
 :root.theme-dark body {
-	background-color:#121212;
+	background-color:#000000;
 	color:#ffffff;
 }
 :root.theme-dark a:not(.button) {
