@@ -1,3 +1,3 @@
 who would look at this right?
 
-Using [LitteLink](https://github.com/sethcottle/littlelink)
+Using [littlelink](https://github.com/sethcottle/littlelink)
